@@ -1,4 +1,4 @@
-import { DB, FIRST_LEVEL, LEVEL_TIER_ROLES, ROLES } from '@root/config';
+import { DB, FIRST_LEVEL, LEVEL_TIER_ROLES, ROLES } from '@root/secretVariables';
 import { BOTMASTER_PERMS } from '@lib/permissions';
 import { Command } from '@lib/types/Command';
 import { ApplicationCommandPermissionData, CommandInteraction } from 'discord.js';

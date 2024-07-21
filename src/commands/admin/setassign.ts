@@ -1,7 +1,7 @@
 import { ApplicationCommandOptionData, ApplicationCommandPermissionData, CommandInteraction } from 'discord.js';
 import { AssignableRole } from '@lib/types/AssignableRole';
 import { ADMIN_PERMS } from '@lib/permissions';
-import { DB } from '@root/config';
+import { DB } from '@root/secretVariables';
 import { Command } from '@lib/types/Command';
 import { modifyRoleDD } from '@root/src/lib/utils/generalUtils';
 

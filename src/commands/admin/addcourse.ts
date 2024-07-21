@@ -1,7 +1,7 @@
 import { OverwriteResolvable, Guild, TextChannel, ApplicationCommandPermissionData, CommandInteraction, ApplicationCommandOptionData } from 'discord.js';
 import { Course } from '@lib/types/Course';
 import { ADMIN_PERMS } from '@lib/permissions';
-import { DB, GUILDS, ROLES } from '@root/config';
+import { DB, GUILDS, ROLES } from '@root/secretVariables';
 import { Command } from '@lib/types/Command';
 import { modifyRoleDD } from '@root/src/lib/utils/generalUtils';
 

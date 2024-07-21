@@ -1,6 +1,6 @@
 import { ADMIN_PERMS } from '@lib/permissions';
 import { RequestError } from '@octokit/types';
-import { BOT, GITHUB_PROJECT } from '@root/config';
+import { BOT, GITHUB_PROJECT } from '@root/secretVariables';
 import { Command } from '@lib/types/Command';
 import { ApplicationCommandOptionData, ApplicationCommandPermissionData, CommandInteraction } from 'discord.js';
 

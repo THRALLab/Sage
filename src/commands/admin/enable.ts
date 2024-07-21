@@ -1,7 +1,7 @@
 import { ApplicationCommandOptionData, ApplicationCommandPermissionData, CommandInteraction, Formatters } from 'discord.js';
 import { BOTMASTER_PERMS } from '@lib/permissions';
 import { getCommand } from '@root/src/lib/utils/generalUtils';
-import { DB } from '@root/config';
+import { DB } from '@root/secretVariables';
 import { SageData } from '@lib/types/SageData';
 import { Command } from '@lib/types/Command';
 

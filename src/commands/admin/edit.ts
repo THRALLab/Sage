@@ -1,6 +1,6 @@
 import { BOTMASTER_PERMS } from '@lib/permissions';
 import { ApplicationCommandOptionData, ApplicationCommandPermissionData, CommandInteraction, MessageActionRow, Modal, ModalActionRowComponent, TextChannel, TextInputComponent } from 'discord.js';
-import { BOT } from '@root/config';
+import { BOT } from '@root/secretVariables';
 import { Command } from '@lib/types/Command';
 
 export default class extends Command {

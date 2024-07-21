@@ -1,5 +1,5 @@
 import { ActivityType, ApplicationCommandOptionData, ApplicationCommandPermissionData, CommandInteraction } from 'discord.js';
-import { BOT, DB } from '@root/config';
+import { BOT, DB } from '@root/secretVariables';
 import { BOTMASTER_PERMS } from '@lib/permissions';
 import { Command } from '@lib/types/Command';
 

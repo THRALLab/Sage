@@ -2,7 +2,7 @@ import { ApplicationCommandOptionData, ApplicationCommandPermissionData, Command
 import { BOTMASTER_PERMS } from '@lib/permissions';
 import { getCommand } from '@root/src/lib/utils/generalUtils';
 import { SageData } from '@lib/types/SageData';
-import { DB } from '@root/config';
+import { DB } from '@root/secretVariables';
 import { Command } from '@lib/types/Command';
 
 export default class extends Command {

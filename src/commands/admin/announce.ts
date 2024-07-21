@@ -1,6 +1,6 @@
 import { BOTMASTER_PERMS } from '@lib/permissions';
 import { TextChannel, ApplicationCommandPermissionData, CommandInteraction, ApplicationCommandOptionData, Modal, TextInputComponent, MessageActionRow, ModalActionRowComponent } from 'discord.js';
-import { CHANNELS } from '@root/config';
+import { CHANNELS } from '@root/secretVariables';
 import { Command } from '@lib/types/Command';
 
 export default class extends Command {
